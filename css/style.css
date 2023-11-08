@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Cynatar;
+    src: url('/font/Cynatar.otf');
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: url('/cyberpunk-night-city.gif') no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    color: #f3f70c;
+    font-family: 'Cynatar', sans-serif;
+}
+
+
+h1 {
+    position: absolute;
+    top: 10%;
+    font-size: 3.5rem;
+    background-color: rgba(0, 0, 0, 0.603);
+    border: 1px solid;
+    border-radius: 7%;
+    border-color: rgba(255, 255, 255, 0.151);
+    font-weight: 100;
+}
+.diferente {
+    background-color:  rgb(5, 149, 185);
+}
+
+.diferente:hover {
+    background-color:#eef151c2;
+    transition: 0.2s;
+}
+#calculadora {
+    background-color: #0e0d0d83;
+    border-radius: 2%;
+    padding: 4%;
+    width: max-content;
+}
+
+#resultado {
+    background-color: #fff;
+    margin: 4% auto;
+    overflow: hidden;
+    font-size: 1.5rem;
+    color: black;
+    text-align: right;
+    width: 13.5rem;
+    padding: 2%;
+    height: 2rem;
+}
+
+
+button {
+    background-color: rgba(201, 45, 118, 0.774);
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    margin: .2rem;
+    border: 0px solid;
+    border-radius:4%;
+    cursor: pointer;
+    font-family: cynatar;
+}
+
+button:hover {
+    background-color: rgb(9, 121, 150);
+    transition: 0.2s;
+}
